@@ -8,3 +8,9 @@
 - 📫 How to reach me: open a new issue [here](https://github.com/lirc572/lirc572/issues)
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+![lirc572's github stats](https://github-readme-stats.vercel.app/api?username=lirc572&show_icons=true)
+
+![lirc572's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lirc572&layout=compact)
+
+(Errr Verilog???)
