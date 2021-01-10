@@ -26,6 +26,3 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
-          plugin_projects: yes
-          plugin_projects_limit: 1
-          plugin_projects_repositories: lirc572/nafuture-zxn1-resources
