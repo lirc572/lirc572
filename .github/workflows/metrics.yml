@@ -4,6 +4,7 @@ on:
   # Schedule updates
   schedule: [{cron: "20 5 * * *"}]
   push: {branches: "master"}
+  workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -33,3 +34,7 @@ jobs:
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_stargazers: yes
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/6AXfGrj0Ohm5XSTv0tKsB0
+          plugin_music_limit: 5
